@@ -127,6 +127,10 @@ function Faq() {
                   <i className="fa fa-Page" />
                   Spoken English
                 </Link>
+                <Link to="" className="btn btn-sm btn-primary" onClick={(e)=>{handleCategoryChange(e,'Study-abroad')}}>
+                  <i className="fa fa-Page" />
+                  Study-abroad
+                </Link>
                 </div>
         {form.map((faq,index)=>(
     <div className={activeIndex == index?'card':'card collapsed-card'}>
